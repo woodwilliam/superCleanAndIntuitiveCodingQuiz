@@ -93,21 +93,21 @@ const finalAnswer = function () {
 function gameOver() {
   timeEl.textContent = "We're never gonna make it to regionals at this pace";
   var imgEl = document.createElement("img");
-  imgEl.setAttribute("src", "Assets/gameOverImage.jpg");
+  imgEl.setAttribute("src", "img/gameOverImage.jpg");
   mainEl.appendChild(imgEl);
 }
 // function to display winner score
 function winner() {
   mainEl.textContent = `Winner Winner! YOur score is ${score}! You the best!`;
   var imgEl = document.createElement("img");
-  imgEl.setAttribute("src", "Assets/Winner.jpg");
+  imgEl.setAttribute("src", "img/Winner.jpg");
   mainEl.appendChild(imgEl);
 }
 // fucntion for when your score is unsatisfactory
 function loser() {
   mainEl.textContent = `FOOL! YOur score is ${score}! THAT CERTAINLY ISNT GOOD ENOUGH!`;
   var imgEl = document.createElement("img");
-  imgEl.setAttribute("src", "Assets/loser.jpg");
+  imgEl.setAttribute("src", "img/loser.jpg");
   mainEl.appendChild(imgEl);
 }
 function endQuiz() {
